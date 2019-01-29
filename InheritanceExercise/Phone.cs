@@ -10,10 +10,15 @@ namespace InheritanceExercise
     {
         public double dimensions { get; set; }
 
-        public double getDimensions()
+        public double Dimensions
         {
-            return 0.0;
+            get{
+                return dimensions;
+            }
+            set{
+                dimensions = value;
+            }
         }
-
     }
+
 }

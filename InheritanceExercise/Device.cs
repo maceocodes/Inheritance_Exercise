@@ -8,13 +8,10 @@ namespace InheritanceExercise
 {
     class Device
     {
-        public string Color { get; set; }
+        public bool powerOn { get; set; }
 
-        public void PowerOn()
-        {
+        public void PowerOn(){
             Console.WriteLine("Powered On");
-
-
         }
     }
 }

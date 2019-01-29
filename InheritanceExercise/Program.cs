@@ -12,7 +12,8 @@ namespace InheritanceExercise
         {
             Phone iphone = new Phone();
             iphone.dimensions = 3.3;
-            Console.WriteLine(iphone);
+            Console.WriteLine(iphone.Dimensions);
+            Console.ReadLine();
         }
     }
 }
